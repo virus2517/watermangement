@@ -42,4 +42,4 @@ def get_recommendation():
     return jsonify({'water_requirements': water_requirements})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False,host='0.0.0.0')
